@@ -13,3 +13,10 @@ Scrappy is an app where people can give away or exchange extra art and craft sup
 - How we're going to store user and item data
 - How to handle requests between users
 - What the main pages should look like
+
+## Development Tasks
+- Set up the frontend and backend
+- Create login and signup pages
+- Build a page for posting and browsing supplies
+- Set up a database to store users and listings
+- Test basic features and fix bugs
