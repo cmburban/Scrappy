@@ -100,3 +100,61 @@ Do this once the site works on the preview URL.
 - Save, then wait. DNS changes can take a few minutes up to 48 hours to spread.
 
 **Careful:** If the sponsor already uses email on this domain, do not delete the existing MX records. They control email delivery.
+
+## Step 6: Check HTTPS and test signups
+
+- Netlify, Vercel, and Cloudflare Pages issue a free SSL certificate automatically once the domain connects. Make sure HTTPS is enabled.
+
+- Visit the site with http:// and confirm it redirects to https://.
+
+## Launch checklist
+
+- The domain loads the site (with and without www)
+
+- The padlock shows in the browser
+
+- A test signup lands in the database
+
+- The site works on a phone
+
+- Environment variables are set on the host, not stored in the code
+
+- No passwords or keys are in the GitHub repo
+
+## Step 7: Plan for privacy, costs, and handoff
+
+### Privacy (because people will sign up)
+
+- Collect as little as possible. An email is often enough for a waitlist.
+
+- Add a short privacy policy and a clear note on the signup form about what we do with emails.
+
+- Never store plain-text passwords. Use Supabase's built-in auth.
+
+### Costs
+
+- Agree with the sponsor on who pays for any paid plan and when it starts.
+
+- Set a spending limit or alert on any paid service.
+
+### Handoff (so it does not die when we graduate)
+
+- The sponsor should own the registrar, hosting, database, and GitHub accounts. Team members are added as collaborators.
+
+- Write a one-page doc that lists the DNS records, where each service lives, and how to deploy.
+
+- Share who to contact and how to renew the domain.
+
+## Open questions to settle with the sponsor
+
+- Which registrar was the domain bought from?
+
+- Can he add a team member as a delegate, or will he enter DNS records himself?
+
+- What is the monthly budget for hosting and the database?
+
+- Will this be a commercial product? (This affects free-tier terms, such as Vercel.)
+
+- Does he want email addresses on the domain, like info@theirdomain.com?
+
+- Does our capstone class require a specific host or cloud provider?
