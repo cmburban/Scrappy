@@ -61,3 +61,42 @@ Supabase gives us a Postgres database plus built-in login and signup, so we do n
 - Test locally: submit a signup and confirm the row appears in the table.
 
 **Heads up:** Free Supabase projects pause after about a week of inactivity. Plan to upgrade (about \$25 per month) before launch so the site does not go to sleep.
+
+## Step 4: Deploy the site to a host
+
+Pick a host for the frontend. All of these deploy straight from the GitHub repo and have free tiers:
+
+| **Host**             | **Good for**              | **Cost note**                                                                               |
+|----------------------|---------------------------|---------------------------------------------------------------------------------------------|
+| **Cloudflare Pages** | Static or React/Vue sites | Free                                                                                        |
+| **Netlify**          | Static or React/Vue sites | Free tier                                                                                   |
+| **Vercel**           | React / Next.js           | Free tier is for non-commercial use only. Ask the sponsor if the project is for a business. |
+| **Render / Railway** | A custom backend server   | About \$5 to \$7 per month. Free tiers sleep and wake slowly.                               |
+
+- Connect the host to the GitHub repo.
+
+- Add the same environment variables (Supabase URL and key) in the host's settings.
+
+- Deploy. The host gives you a free preview URL. Test the whole site and signup flow there first.
+
+- Optional: set up a staging address (like staging.theirdomain.com) if your professor wants a demo before launch.
+
+## Step 5: Connect the domain (DNS records)
+
+Do this once the site works on the preview URL.
+
+- In the host's dashboard, choose Add custom domain and enter the domain name.
+
+- The host shows the DNS records it needs. Copy them exactly.
+
+- In the registrar's DNS settings, add them. Usually this means:
+
+  - **A record** for the root domain (example.com)
+
+  - **CNAME record** for www
+
+  - Some hosts (Cloudflare, Netlify) instead ask you to switch the domain's **nameservers** to theirs.
+
+- Save, then wait. DNS changes can take a few minutes up to 48 hours to spread.
+
+**Careful:** If the sponsor already uses email on this domain, do not delete the existing MX records. They control email delivery.
