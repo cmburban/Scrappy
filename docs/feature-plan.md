@@ -15,7 +15,7 @@ The design will prioritize usability, maintainability, and consistency with the 
 Each listing will contain the information necessary for users to understand what is being offered. Depending on the final requirements, this may include:
 
 - **Title:** A short description of the item.
-- **Image:** A visual representation of the item, when applicable.
+- **Image:** A visual representation of the item, when applicable
 - **Category:** A classification used to organize listings.
 - **Description:** Additional information about the item.
 - **Condition:** An indication of the item's current state.
