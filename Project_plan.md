@@ -7,16 +7,22 @@ Scrappy is an app where people can give away or exchange extra art and craft sup
 - A way to browse available supplies
 - Basic search by item type
 - A way to contact someone about an item
+- Improve the UI for browsing and posting supplies
 
 ## Things to figure out
 - What information each listing needs
 - How we're going to store user and item data
 - How to handle requests between users
 - What the main pages should look like
+- How to connect the frontend and backend
 
 ## Development Tasks
 - Set up the frontend and backend
 - Create login and signup pages
 - Build a page for posting and browsing supplies
 - Set up a database to store users and listings
+- Add backend API routes for listings
+- Connect frontend to backend
+- Improve UI layout and navigation
+- Update buttons and forms
 - Test basic features and fix bugs
