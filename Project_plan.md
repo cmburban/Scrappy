@@ -1,28 +1,27 @@
 # Scrappy
-Scrappy is an app where people can give away or exchange extra art and craft supplies with others nearby.
+Scrappy is an app where people can give away or exchange extra art and craft supplies with others nearby. The website is now live and available for testing.
 
-## What we're planning to build
-- A way for users to sign up and log in
-- A page to post supplies they don't need anymore
-- A way to browse available supplies
-- Basic search by item type
-- A way to contact someone about an item
-- Improve the UI for browsing and posting supplies
+## Current Progress
+- The website is now live
+- Continuing to improve the main pages
+- Working on the overall user experience
+- Testing the website and checking for bugs
 
-## Things to figure out
-- What information each listing needs
-- How we're going to store user and item data
-- How to handle requests between users
-- What the main pages should look like
-- How to connect the frontend and backend
+## Things to Improve
+- Improve the layout of the website
+- Make browsing and posting supplies easier
+- Improve navigation between pages
+- Make the website more mobile-friendly
+- Improve how listings are displayed
+- Make buttons and forms more consistent
 
 ## Development Tasks
-- Set up the frontend and backend
-- Create login and signup pages
-- Build a page for posting and browsing supplies
-- Set up a database to store users and listings
-- Add backend API routes for listings
-- Connect frontend to backend
-- Improve UI layout and navigation
-- Update buttons and forms
-- Test basic features and fix bugs
+- Test the live website
+- Check login and signup functionality
+- Test posting and browsing supplies
+- Review frontend and backend connections
+- Improve basic search functionality
+- Update buttons and page layouts
+- Fix minor bugs and issues
+- Clean up unnecessary code
+- Continue improving the website
